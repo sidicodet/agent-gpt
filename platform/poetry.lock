@@ -2929,18 +2929,18 @@ files = [
 
 [[package]]
 name = "replicate"
-version = "0.8.4"
+version = "0.10.0"
 description = "Python client for Replicate"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "replicate-0.8.4-py3-none-any.whl", hash = "sha256:b433dc8f336001903f4652d68d094a92d6fcf46ca8273cfb0c84e53edc15e33d"},
-    {file = "replicate-0.8.4.tar.gz", hash = "sha256:5620dab09d47749d6eaed2e3c980831fdceb7512ad52bd05111dfccc9f58697f"},
+    {file = "replicate-0.10.0-py3-none-any.whl", hash = "sha256:71464d62259b22a17f5383e83ebaf158cace69ba0153a9de21061283ac2c3a4b"},
+    {file = "replicate-0.10.0.tar.gz", hash = "sha256:f714944be0c65eef7b3ebf740eb132d573a52e811a02f0031b9f1ae077a50696"},
 ]
 
 [package.dependencies]
 packaging = "*"
-pydantic = ">1,<2"
+pydantic = ">1"
 requests = ">2"
 
 [package.extras]
@@ -3934,4 +3934,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "468f853a9b80a4f7e2f0c4b7c18a1757623f7cc47a23e92c8b2018b7d28d0a81"
+content-hash = "c830d2567cd731e3b10e8289466ae943c291e806fd271bf2f2acc81b28a066dc"
